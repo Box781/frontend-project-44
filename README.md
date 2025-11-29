@@ -7,3 +7,5 @@
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Box781_frontend-project-44)](https://sonarcloud.io/summary/new_code?id=Box781_frontend-project-44)
 
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=Box781_frontend-project-44)
+
+https://asciinema.org/a/3EjbNuCJ3D4ok81RWD1lyezwC

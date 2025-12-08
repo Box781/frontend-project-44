@@ -15,7 +15,7 @@ const Ans = (res, name) => {
   } else {
     console.log(
       `'${answer}' is wrong answer ;(. Correct answer was '${res}'.
-Let's try again, ${name}`
+Let's try again, ${name}!`
     );
     return 2;
   }

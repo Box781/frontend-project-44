@@ -6,18 +6,17 @@ const Progression = () => {
   for (let i = 0; i < 3; i += 1) {
     const randNumStart = Math.floor(Math.random() * 100);
     const randNumSum = Math.floor(Math.random() * 10 + 1);
-    const arr = [randNumStart];
+    const arr = [];
     let strProgression = `${randNumStart}`;
     const numPlace = Math.floor(Math.random() * 10);
     let rightAns = 0;
     let curNum = randNumStart;
-    for (let i = 1; i < 10; i += 1) {
+    for (let i = 0; i < 10; i += 1) {
       curNum = curNum + randNumSum;
       arr.push(curNum);
       if (numPlace === i) {
         rightAns = arr[i];
-        arr.pop();
-        arr.push("..");
+        arr[i] = "..";
       }
       strProgression = strProgression + " " + arr[i];
     }

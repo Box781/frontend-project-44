@@ -19,8 +19,8 @@ const nod = () => {
   const name = funcAll.Start();
   console.log("Find the greatest common divisor of given numbers.");
   for (let i = 0; i < 3; i += 1) {
-    const randNum1 = Math.floor(Math.random() * 100);
-    const randNum2 = Math.floor(Math.random() * 100);
+    const randNum1 = Math.floor(Math.random() * 100 + 1);
+    const randNum2 = Math.floor(Math.random() * 100 + 1);
     console.log(`Question: ${randNum1} ${randNum2}`);
     const res = findNOD(randNum1, randNum2).toString();
     const num = funcAll.Ans(res, name);

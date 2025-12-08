@@ -27,7 +27,7 @@ const Simple = () => {
     let res = ''
     if (issimple === true) {
       res = 'yes'
-    } 
+    }
     else {
       res = 'no'
     }

@@ -3,7 +3,8 @@ import * as funcAll from '../src/cli.js'
 const IsEven = (randNum) => {
   if (randNum % 2 === 0) {
     return 'yes'
-  } else {
+  } 
+  else {
     return 'no'
   }
 }

@@ -12,7 +12,8 @@ const Ans = (res, name) => {
   if (answer === res) {
     console.log('Correct!')
     return 1
-  } else {
+  }
+  else {
     console.log(
       `'${answer}' is wrong answer ;(. Correct answer was '${res}'.
 Let's try again, ${name}!`
@@ -21,6 +22,8 @@ Let's try again, ${name}!`
   }
 }
 
-const Victory = (name) => console.log(`Congratulations, ${name}!`)
+const Victory = (name) => {
+  console.log(`Congratulations, ${name}!`)
+}
 
 export { Start, Ans, Victory }

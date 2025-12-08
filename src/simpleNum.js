@@ -27,7 +27,8 @@ const Simple = () => {
     let res = ''
     if (issimple === true) {
       res = 'yes'
-    } else {
+    } 
+    else {
       res = 'no'
     }
     const num = funcAll.Ans(res, name)

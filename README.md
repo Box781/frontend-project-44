@@ -12,8 +12,8 @@ https://asciinema.org/a/3EjbNuCJ3D4ok81RWD1lyezwC - brain-even
 
 https://asciinema.org/a/dKLxXEJP0VSdOsY9QRXgIrqZU - brain-calc
 
-https://asciinema.org/a/ZeG33eSJGvOdRYEKnPKYZH1yP - gcd
+https://asciinema.org/a/ZeG33eSJGvOdRYEKnPKYZH1yP - brain-gcd
 
-https://asciinema.org/a/TmEn1c5CnOcd0dD4UHStuUyR5 - progression
+https://asciinema.org/a/TmEn1c5CnOcd0dD4UHStuUyR5 - brain-progression
 
-https://asciinema.org/a/RCQjJALA3vqwPDmYlRf4ywovd - prime
+https://asciinema.org/a/RCQjJALA3vqwPDmYlRf4ywovd - brain-prime

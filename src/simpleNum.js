@@ -1,41 +1,41 @@
-import * as funcAll from "../src/cli.js";
+import * as funcAll from '../src/cli.js'
 
 const isSimple = (num) => {
   if (num === 1) {
-    return false;
+    return false
   }
-  let x = 0;
+  let x = 0
   for (let i = 2; i < num; i += 1) {
     if (num % i !== 0) {
-      continue;
+      continue
     }
-    x += 1;
+    x += 1
   }
   if (x === 0) {
-    return true;
+    return true
   }
-  return false;
-};
+  return false
+}
 
 const Simple = () => {
-  const name = funcAll.Start();
-  console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
+  const name = funcAll.Start()
+  console.log('Answer "yes" if given number is prime. Otherwise answer "no".')
   for (let i = 0; i < 3; i += 1) {
-    const randNum = Math.floor(Math.random() * 100);
-    console.log(`Question: ${randNum}`);
-    const issimple = isSimple(randNum);
-    let res = "";
+    const randNum = Math.floor(Math.random() * 100)
+    console.log(`Question: ${randNum}`)
+    const issimple = isSimple(randNum)
+    let res = ''
     if (issimple === true) {
-      res = "yes";
+      res = 'yes'
     } else {
-      res = "no";
+      res = 'no'
     }
-    const num = funcAll.Ans(res, name);
+    const num = funcAll.Ans(res, name)
     if (num !== 1) {
-      return;
+      return
     }
   }
-  funcAll.Victory(name);
-};
+  funcAll.Victory(name)
+}
 
-export default Simple;
+export default Simple

@@ -15,3 +15,5 @@ https://asciinema.org/a/dKLxXEJP0VSdOsY9QRXgIrqZU - brain-calc
 https://asciinema.org/a/ZeG33eSJGvOdRYEKnPKYZH1yP - gcd
 
 https://asciinema.org/a/TmEn1c5CnOcd0dD4UHStuUyR5 - progression
+
+https://asciinema.org/a/RCQjJALA3vqwPDmYlRf4ywovd - prime

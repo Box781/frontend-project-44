@@ -17,7 +17,7 @@ const QuestionAndAnswer = () => {
     case 2:
       correctAnswer = randNum1 * randNum2
   }
-  return {question, correctAnswer}
+  return { question, correctAnswer }
 }
 
 export { getGameRules, QuestionAndAnswer }

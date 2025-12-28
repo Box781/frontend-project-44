@@ -16,7 +16,7 @@ const QuestionAndAnswer = () => {
     num1 = num3
   }
   const correctAnswer = num2
-  return {question, correctAnswer}
+  return { question, correctAnswer }
 }
 
 export { getGameRules, QuestionAndAnswer }

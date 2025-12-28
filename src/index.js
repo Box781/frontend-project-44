@@ -13,10 +13,9 @@ const Game = (gameRules, QuestionAndAnswer) => {
     if (userAnswer === String(correctAnswer)) {
       console.log('Correct!')
       correctAnswersCount++
-    } else {
-      console.log(
-        `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
-      )
+    }
+    else {
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
       console.log(`Let's try again, ${userName}!`)
       return
     }

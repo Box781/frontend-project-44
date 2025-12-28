@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import App from '../src/progression.js'
+import Game from '../src/index.js'
+import { getGameRules, QuestionAndAnswer } from '../src/progression.js'
 
-App()
+Game(getGameRules(), QuestionAndAnswer)

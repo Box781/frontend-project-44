@@ -1,6 +1,10 @@
-import * as funcAll from '../src/cli.js'
+const getGameRules = () =>
+  'Answer "yes" if given number is prime. Otherwise answer "no".'
 
-const isSimple = (num) => {
+const QuestionAndAnswer = () => {
+    const randNum = Math.floor(Math.random() * 100)
+    const question = `${randNum}`
+    const isSimple = (num) => {
   if (num === 1) {
     return false
   }
@@ -16,27 +20,15 @@ const isSimple = (num) => {
   }
   return false
 }
-
-const Simple = () => {
-  const name = funcAll.Start()
-  console.log('Answer "yes" if given number is prime. Otherwise answer "no".')
-  for (let i = 0; i < 3; i += 1) {
-    const randNum = Math.floor(Math.random() * 100)
-    console.log(`Question: ${randNum}`)
     const issimple = isSimple(randNum)
-    let res = ''
+    let correctAnswer = ''
     if (issimple === true) {
-      res = 'yes'
+      correctAnswer = 'yes'
     }
     else {
-      res = 'no'
+      correctAnswer = 'no'
     }
-    const num = funcAll.Ans(res, name)
-    if (num !== 1) {
-      return
-    }
-  }
-  funcAll.Victory(name)
+  return {question, correctAnswer}
 }
 
-export default Simple
+export { getGameRules, QuestionAndAnswer }

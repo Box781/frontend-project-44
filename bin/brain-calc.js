@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import App from '../src/Calc.js'
+import Game from '../src/index.js'
+import { getGameRules, QuestionAndAnswer } from '../src/Calc.js'
 
-App()
+Game(getGameRules(), QuestionAndAnswer)

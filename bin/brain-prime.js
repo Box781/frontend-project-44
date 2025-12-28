@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import App from '../src/simpleNum.js'
+import Game from '../src/index.js'
+import { getGameRules, QuestionAndAnswer } from '../src/simpleNum.js'
 
-App()
+Game(getGameRules(), QuestionAndAnswer)

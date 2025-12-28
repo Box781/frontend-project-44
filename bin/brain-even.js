@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
-import App from '../src/brainEven.js'
+import Game from '../src/index.js'
+import { getGameRules, QuestionAndAnswer } from '../src/brainEven.js'
 
-App()
+Game(getGameRules(), QuestionAndAnswer)

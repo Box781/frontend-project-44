@@ -24,7 +24,8 @@ const QuestionAndAnswer = () => {
   let correctAnswer = ''
   if (issimple === true) {
     correctAnswer = 'yes'
-  } else {
+  }
+  else {
     correctAnswer = 'no'
   }
   return { question, correctAnswer }
